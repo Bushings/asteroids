@@ -1,0 +1,6 @@
+import pygame
+
+pygame.init()
+screen = pygame.display.set_mode((800, 600))
+pygame.time.wait(2000)  # Wait 2 seconds
+pygame.quit()
